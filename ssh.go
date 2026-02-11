@@ -1,5 +1,3 @@
-[file name]: ssh.go
-[file content begin]
 package main
 
 import (
@@ -2188,4 +2186,3 @@ func processSSHTask(task SSHTask) {
 		atomic.AddInt64(&stats.errors, 1)
 	}
 }
-[file content end]
